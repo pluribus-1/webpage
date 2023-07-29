@@ -124,3 +124,41 @@ strong {
     display: flex;
     justify-content: flex-end;
 }
+
+.call-to-action {
+    height: 500px;
+    width: 100%;
+    font-size: 26px;
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action .container {
+    margin: 50px;
+    height: 200px;
+    width: 80%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.call-to-action button {
+    padding: 12px 32px;
+    color: white;
+    border: solid;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.call-to-action .left p {
+    width: 100%;
+    margin-right: 120px;
+}
