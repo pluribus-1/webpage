@@ -162,3 +162,11 @@ strong {
     width: 100%;
     margin-right: 120px;
 }
+
+.footer {
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
