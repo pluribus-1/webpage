@@ -35,16 +35,19 @@ a {
 
 .container-top {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap-reverse;
     padding: 55px 0 100px;
-    gap: 100px;
+    gap: 30px 100px;
 }
 
 .left p,
 h1 {
     color: #F9FAF8;
     width: 460px;
-    margin-right: auto;
+}
+
+.left {
+    margin: 0 auto;
 }
 
 h1 {
@@ -62,7 +65,7 @@ h1 {
 .container-top img {
     width: 500px;
     height: 225px;
-    margin-left: auto;
+    margin: 0 auto;
 }
 
 .left button {
@@ -177,6 +180,7 @@ strong {
     background-color: transparent;
     font-size: 20px;
     font-weight: 900;
+    margin: 0 65px 0 0;
 }
 
 .call-to-action .left p {
