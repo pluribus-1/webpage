@@ -78,12 +78,14 @@ h1 {
 
 .container-mid {
     background-color: #F9FAF8;
-    height: 450px;
+    min-height: 450px;
     width: 100%;
     display: flex;
+    flex: 1;
     flex-direction:column;
     align-items: center;
-    padding-top: 40px;
+    padding: 40px 0;
+    justify-content: center;
 }
 
 h2 {
@@ -96,13 +98,15 @@ h3 {
     font-size: 32px;
     color: #1F2937;
     font-weight: 900;
-    margin: 15px 0 30px;
+    margin: 0 0 20px;
 }
 
 .container-mid ul {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    gap: 0 40px;
 }
 
 .container-mid img {
